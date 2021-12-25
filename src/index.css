@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	overflow: hidden;
+	height: 100vh;
+
+	background: hsla(279, 70%, 61%, 1);
+
+	background: linear-gradient(
+		90deg,
+		hsla(279, 70%, 61%, 1) 0%,
+		hsla(271, 57%, 51%, 1) 10%,
+		hsla(261, 66%, 38%, 1) 20%,
+		hsla(247, 71%, 25%, 1) 30%,
+		hsla(242, 72%, 20%, 1) 40%,
+		hsla(240, 81%, 12%, 1) 50%,
+		hsla(237, 87%, 9%, 1) 60%,
+		hsla(232, 92%, 5%, 1) 70%,
+		hsla(233, 100%, 3%, 1) 80%,
+		hsla(240, 80%, 2%, 1) 90%,
+		hsla(0, 0%, 0%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(279, 70%, 61%, 1) 0%,
+		hsla(271, 57%, 51%, 1) 10%,
+		hsla(261, 66%, 38%, 1) 20%,
+		hsla(247, 71%, 25%, 1) 30%,
+		hsla(242, 72%, 20%, 1) 40%,
+		hsla(240, 81%, 12%, 1) 50%,
+		hsla(237, 87%, 9%, 1) 60%,
+		hsla(232, 92%, 5%, 1) 70%,
+		hsla(233, 100%, 3%, 1) 80%,
+		hsla(240, 80%, 2%, 1) 90%,
+		hsla(0, 0%, 0%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(279, 70%, 61%, 1) 0%,
+		hsla(271, 57%, 51%, 1) 10%,
+		hsla(261, 66%, 38%, 1) 20%,
+		hsla(247, 71%, 25%, 1) 30%,
+		hsla(242, 72%, 20%, 1) 40%,
+		hsla(240, 81%, 12%, 1) 50%,
+		hsla(237, 87%, 9%, 1) 60%,
+		hsla(232, 92%, 5%, 1) 70%,
+		hsla(233, 100%, 3%, 1) 80%,
+		hsla(240, 80%, 2%, 1) 90%,
+		hsla(0, 0%, 0%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B055E1", endColorstr="#853AC9", GradientType=1 );
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
